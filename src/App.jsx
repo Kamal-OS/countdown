@@ -39,7 +39,7 @@ function Countdown() {
                 <strong>{String(timeLeft.days).padStart(2, "0")}</strong>{" "}
                 <u style={{ fontSize: "0.5em" }}>DAYS</u> :{" "}
                 <strong>{String(timeLeft.hours).padStart(2, "0")}</strong>{" "}
-                <u style={{ fontSize: "0.5em" }}>HOURS</u>:{" "}
+                <u style={{ fontSize: "0.5em" }}>HOURS</u> :{" "}
                 <strong>{String(timeLeft.minutes).padStart(2, "0")}</strong>{" "}
                 <u style={{ fontSize: "0.5em" }}>MINUTES</u> :{" "}
                 <strong>{String(timeLeft.seconds).padStart(2, "0")}</strong>{" "}
